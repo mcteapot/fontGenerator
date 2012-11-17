@@ -1,0 +1,1 @@
+﻿var sourceFontTemplateDocument = activeDocument;var layerName = sourceFontTemplateDocument.layers[i].name;
