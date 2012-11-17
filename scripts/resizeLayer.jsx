@@ -1,1 +1,1 @@
-﻿var sourceFontTemplateDocument = activeDocument;var layerName = sourceFontTemplateDocument.layers[i].name;
+﻿var sourceFontTemplateDocument = activeDocument;var totalLayers = sourceFontTemplateDocument.layers.length;for(var i = 0; totalLayers > i; i++) {         if(sourceFontTemplateDocument.layers[i].locked === false) {         var layerName = sourceFontTemplateDocument.layers[i].name;                  sourceFontTemplateDocument.layers[i].position(0, 470);          $.writeln(layerName);              }    }
